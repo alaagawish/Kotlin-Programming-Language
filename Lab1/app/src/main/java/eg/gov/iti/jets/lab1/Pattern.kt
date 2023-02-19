@@ -1,12 +1,16 @@
 package eg.gov.iti.jets.lab1
 
 fun main() {
-    var pattern: String = "*"
-    var pattern2: String = "* "
-    var spaces: String = " "
-    for (i in 1..7) {
-        println("${pattern.repeat(i)}${spaces.repeat(8 - i)}${pattern2.repeat(i)}")
-    }
+//    var pattern: String = "*"
+//    var pattern2: String = "* "
+//    var spaces: String = " "
+//    for (i in 1..7) {
+//        println("${pattern.repeat(i)}${spaces.repeat(8 - i)}${pattern2.repeat(i)}")
+//    }
+
+    val array = Array (5) { it * 2}
+//    println(it)}
+    println(java.util.Arrays.toString(array))
 //    var x: String = readln()
 //    print(x.isBlank())
 //    print(x.isEmpty())
